@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poor+Story&display=swap');
+
+
+.App{
+  background-color: #F5F5F5;
+  height: 100vh;
+  font-family: 'Poor Story', cursive;
+
+  
+}
+
+
+nav{
+  background-color: #FFF9C4;
+  text-align: center;
+  padding:1em 0;
+  font-size: 3em;
+}
+
+ul{
+  margin-top: 1em;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+ul li {
+  font-size: 2em;
+  text-align: center;
+}
+
+ul > li h3 {
+  display: inline-block;
+}
+
+ul > li button {
+  margin-left:10px;
+  border:none;
+  border-radius: 2px;
+  background-color: white;
+  transition: all .3s linear;
+}
+
+ul> li button:hover{
+  background-color: #E0E0E0;
+}
+
+.problem {
+  display: flex;
+  justify-content: space-evenly;
+}
+.description, .code-editor {
+  width:50%;
+  height: 100vh;
+}
+.description {
+  background-color:greenyellow;
+  padding: 1em;
+  font-size: 1.5em;
+}
+.description h3 {
+  font-size: 2em;
+  font-weight: 1000;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.code-editor{
+  background-color: antiquewhite;
+}
